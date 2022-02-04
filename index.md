@@ -200,7 +200,7 @@ let name = "Hiee"
 let fName = ""
 let lName = "ME"
 lName && fName && false && name || lName;
-\\ output ME
+// output ME
 ```
 
 ```js
@@ -208,7 +208,7 @@ let name = ""
 let fName = ""
 let lName = "ME"
 name || lName && false || lName && "Hello"
-\\ output:- 'Hello'
+// output:- 'Hello'
 ```
 
 ```js
@@ -216,7 +216,7 @@ let name = ""
 let fName = ""
 let lName = "ME"
 lName && fName || false || name && "Hello"
-\\ output''
+// output''
 ```
 
 ```js
@@ -224,7 +224,7 @@ let name = ""
 let fName = " "
 let lName = "ME"
 lName && fName && name && "Hello"
-\\ output:-''
+// output:-''
 ```
 
 ```js
@@ -232,5 +232,5 @@ let name = ""
 let fName = " "
 let lName = "ME"
 lName || fName || name || "Hello"
-\\ output:- 'ME'
+// output:- 'ME'
 ```
