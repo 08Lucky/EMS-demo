@@ -234,3 +234,107 @@ let lName = "ME"
 lName || fName || name || "Hello"
 // output:- 'ME'
 ```
+```js
+// function declaration
+function sub(n){
+    return(n-1);
+}
+```
+
+```js
+// function expression
+let sub=function(n){
+    return(n-1)
+}
+```
+
+```js
+// arrow function without braces
+const sub = (n) => n-1;
+```
+
+```js
+// arrow function with braces
+const sub=(n)=>{
+    return(n-1);
+}
+```
+
+```js
+// function declaration
+function mul(n){
+    return(n*1)
+}
+```
+
+```js
+// function expression
+let mul=function(n){
+    return(n*1)
+}
+```
+
+```js
+// arrow function without braces
+const mul=(n)=>n*1;
+```
+
+```js
+// arrow function with braces
+const mul=(n)=>{
+    return(n*1);
+}
+```
+
+```js
+// function declaration
+function div(n){
+    return(n/1)
+}
+```
+
+```js
+// function expression
+let div=function(n){
+    return(n/1)
+}
+```
+
+```js
+// arrow function without braces
+const div=(n)=>n/1;
+```
+
+```js
+// arrow function with braces
+const div=(n)=>{
+    return(n/1);
+}
+```
+
+```js
+let score;
+let maxPossibleScore =100;
+function grades(score){
+    if(score>=90 && score<=100){
+    console.log("you have got A grade")
+}else if(score>=80 && score<=89){
+    console.log("you have got B grade")
+}else if(score>=70 && score<=79){
+    console.log("you have got C grade")
+}else if(score>=60 && score<=69){
+    console.log("you have got D grade")
+}else if(score>=0 && score<=59){
+    console.log("you have got F grade")
+}else{
+    console.log("Enter the score in the range of 0-100")
+}
+}
+```
+
+```js
+function puppysAge(age, rate=7){
+    let dogsAge = age*rate;
+    console.log("Your Doggie is "+dogsAge +" years old in dog years!")
+}
+```
