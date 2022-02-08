@@ -346,9 +346,9 @@ grades(58) // output you have got F grade
 ```
 
 ```js
-function puppysAge(age, rate=7){
-    let dogsAge = age*rate;
+function puppysAge(age,){
+    let dogsAge = age*7;
     console.log("Your Doggie is "+dogsAge +" years old in dog years!")
 }
-puppysAge(2) // output Your Doggie is 12 years old in dog years!
+puppysAge(2,6) // output Your Doggie is 12 years old in dog years!
 ```
