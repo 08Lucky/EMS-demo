@@ -239,6 +239,7 @@ lName || fName || name || "Hello"
 function sub(n){
     return(n-1);
 }
+sub(7) //output 7
 ```
 
 ```js
@@ -246,11 +247,13 @@ function sub(n){
 let sub=function(n){
     return(n-1)
 }
+sub(7) //output 7
 ```
 
 ```js
 // arrow function without braces
 const sub = (n) => n-1;
+sub(7) //output 7
 ```
 
 ```js
@@ -258,6 +261,7 @@ const sub = (n) => n-1;
 const sub=(n)=>{
     return(n-1);
 }
+sub(7) //output 7
 ```
 
 ```js
@@ -265,6 +269,7 @@ const sub=(n)=>{
 function mul(n){
     return(n*1)
 }
+mul(7) //output 7
 ```
 
 ```js
@@ -272,11 +277,13 @@ function mul(n){
 let mul=function(n){
     return(n*1)
 }
+mul(7) //output 7
 ```
 
 ```js
 // arrow function without braces
 const mul=(n)=>n*1;
+mul(7) //output 7
 ```
 
 ```js
@@ -284,6 +291,7 @@ const mul=(n)=>n*1;
 const mul=(n)=>{
     return(n*1);
 }
+mul(7) //output 7
 ```
 
 ```js
@@ -291,6 +299,7 @@ const mul=(n)=>{
 function div(n){
     return(n/1)
 }
+div(7) //output 7
 ```
 
 ```js
@@ -298,11 +307,13 @@ function div(n){
 let div=function(n){
     return(n/1)
 }
+div(7) //output 7
 ```
 
 ```js
 // arrow function without braces
 const div=(n)=>n/1;
+div(7) //output 7
 ```
 
 ```js
@@ -310,6 +321,7 @@ const div=(n)=>n/1;
 const div=(n)=>{
     return(n/1);
 }
+div(7) //output 7
 ```
 
 ```js
@@ -330,6 +342,7 @@ function grades(score){
     console.log("Enter the score in the range of 0-100")
 }
 }
+grades(58) // output you have got F grade
 ```
 
 ```js
@@ -337,4 +350,5 @@ function puppysAge(age, rate=7){
     let dogsAge = age*rate;
     console.log("Your Doggie is "+dogsAge +" years old in dog years!")
 }
+puppysAge(2) // output Your Doggie is 12 years old in dog years!
 ```
